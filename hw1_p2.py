@@ -1,0 +1,9 @@
+F=int(input("input the force:"))
+m1=int(input("input the mass of m1:"))
+r=int(input("input the distance:"))
+c=299792458
+G=6.67*10**(-11)
+result=F*r**2/(G*m1)
+answer=result*c**2
+print("the mass of m2="+str(result))
+print("the energy of m2="+str(answer))
